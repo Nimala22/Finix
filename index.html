@@ -1,36 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Finix</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>Finix</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
 
-</head>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
 
-<body>
-  <header>
-    <!-- place navbar here -->
-  </header>
-  <main>
+    <!-- Self CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
 
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+  <body>
+    <!-- 01.header section start -->
+    <nav class="navbar navbar-expand-lg navbar-light main-header sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="logo" />
+        </a>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
-</body>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto our-primary-menu">
+            <li>
+              <a href="#" class="active">Home <i class="fa fa-chevron-down"></i> </a>
+              <ul>
+                <li><a href="#">Home One</a></li>
+                <li><a href="#">Home Two</a></li>
+                <li><a href="#">Home Three</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">Pages <i class="fa fa-chevron-down"></i> </a>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Loan Calculator</a></li>
+                <li><a href="#">Apply now</a></li>
+                <li><a href="#">Testimonials</a></li>
+
+                <li>
+                  <a href="#">Projects <i class="fa fa-chevron-down"></i> </a>
+                  <ul>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Projects Details</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Error Page</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">Services <i class="fa fa-chevron-down"></i> </a>
+              <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Services Details</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">Funding</a></li>
+            <li><a href="#">Loans</a></li>
+
+            <li>
+              <a href="#">News <i class="fa fa-chevron-down"></i> </a>
+              <ul>
+                <li><a href="#">News</a></li>
+                <li><a href="#">News Details</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <div class="header-info d-flex align-items-center">
+            <div class="header-search">
+              <span> <i class="fas fa-search"></i> </span>
+            </div>
+            <div class="header-call clearfix d-flex">
+              <div class="header-call-icon float-left mr-3 h-100">
+                <span> <i class="fas fa-phone-volume"></i> </span>
+              </div>
+              <div class="header-call-info">
+                <span class="d-block"> Call Now </span>
+                <a href="tel:+1(514)312-5678" class="d-block"
+                  >+1(514)312-5678</a
+                >
+              </div>
+            </div>
+            <div class="header-button">
+              <a href="#" class="btn btn-primary">Apply now</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+    <!-- 01.header section end -->
+
+    
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

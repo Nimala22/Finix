@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body,p,span{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+  font-family: 'Rubik', sans-serif; 
+}
+
+body .btn-primary{
+  background: #E83B3E !important;
+  border-color: #E83B3E;
+  padding: 10px 40px;
+  font-size: 18px;
+
+  position: relative;
+  z-index: 1;
+}
+
+body .btn-primary:hover{
+  border-color: #111;
+}
+
+body .btn-primary::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #111;
+  border-color: #111;
+
+  z-index: -1;
+  transition: .4s;
+}
+
+body .btn-primary:hover::after{
+  width: 100%;
+}
+
+/* 
+=========================================
+      01. header section css
+=========================================
+*/
+nav{
+  background: #ffffff;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0.1);
+}
+
+#slider-section .container-fluid,
+.main-header .container-fluid{
+  max-width: 1480px;
+}
+
+/* menu */
+ul.our-primary-menu li a{
+  display: inline-block;
+  padding: 10px 20px;
+  color: #111;
+  font-weight: 500;
+  transition: .5s;
+}
+
+ul.our-primary-menu li a i{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+ul.our-primary-menu li a.active,
+ul.our-primary-menu li a:hover{
+  color: #E83B3E;
+}
+
+/* Dropdown menu */
+ul.our-primary-menu li{
+  position: relative;
+}
+
+
+ul.our-primary-menu li ul{
+  position: absolute;
+  width: 300px;
+  left: 0;
+  top: 150%;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0.1);
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all .4s ease-in-out;
+}
+
+ul.our-primary-menu li ul li ul{
+  display: block;
+  position: absolute;
+  width: 250px;
+  left: -90%;
+  top: 0;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0.1);
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all .4s ease-in-out;
+}
+
+ul.our-primary-menu li ul li{
+  flex-direction: column;
+}
+
+ul.our-primary-menu li:hover ul{
+  opacity: 1;
+  visibility: visible;
+  top: 130%;
+}
+
+
+ul.our-primary-menu li ul li a:hover{
+  letter-spacing: 2px;
+}
+
+.header-search{
+  width: 60px;
+  font-size: 22px;
+  text-align: center;
+  margin-right: 20px;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.header-call{
+  width: 220px;
+}
+
+.header-call-icon{
+  font-size: 32px;  
+  color: #E83B3E;
+  margin: 0 8px;
+}
+
+.header-call-info span{
+  font-size: 18px;
+  color: #606060;
+}
+
+.header-call-info a{  
+  font-weight: 700;
+  color: #111;
+}
+
+

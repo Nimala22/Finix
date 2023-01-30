@@ -168,3 +168,71 @@ ul.our-primary-menu li ul li a:hover{
 }
 
 
+/* 
+=========================================
+      2.1 slider section css
+=========================================
+*/
+#slider-section{
+  background: url("images/main-banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.slider-content-wrap{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.slider-content h6{
+  font-size: 18px;
+  font-weight: 400;
+  color: #e73c3e;
+}
+
+.slider-content h1{
+  font-size: 68px;
+  font-weight: 500;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.slider-content p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #606060;
+}
+
+.header-social-icons{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.header-social-icons ul li span{
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+  margin-right: 50px;
+}
+
+.header-social-icons ul li span::after{
+  content: "";
+  height: 2px;
+  background: #606060;
+  width: 35px;
+  position: absolute;
+  right: -45px;
+  top: 51%;
+}
+
+.header-social-icons ul li a{  
+  font-size: 22px;
+  color: #E83B3E;
+  margin: 0 15px;
+  display: inline-block;
+}

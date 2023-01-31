@@ -22,6 +22,10 @@ h1,h2,h3,h4,h5,h6,a{
   font-family: 'Rubik', sans-serif; 
 }
 
+img{
+  max-width: 100%;
+}
+
 body .btn-primary{
   background: #E83B3E !important;
   border-color: #E83B3E;
@@ -236,3 +240,107 @@ ul.our-primary-menu li ul li a:hover{
   margin: 0 15px;
   display: inline-block;
 }
+/* 
+=========================================
+      2.2 slide-logo section css
+=========================================
+*/
+#slide-logo{
+  background: #fff;
+  padding: 50px 0;
+}
+
+/* 
+=========================================
+      2.3 about section css
+=========================================
+*/
+#about{
+  background: #fff;
+  padding: 50px 0;
+}
+
+.about-image{
+  position: relative;
+}
+
+.about-img-text{
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+  height: 200px;
+  width: 200px;
+  background: url("images/shape.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img-text-inner h2{
+  font-size: 70px;
+  font-weight: 500;
+  color: #E83B3E;
+}
+
+.about-img-text-inner p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #111;
+}
+
+.finix-text h6{
+  font-size: 18px;
+  font-weight: 400;
+  color: #E83B3E;
+}
+
+.finix-text h2{
+  font-size: 30px;
+  font-weight: 400;
+  color: #111;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.finix-text p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #606060;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.finix-text strong{
+  font-size: 25px;
+  font-weight: 400;
+  color: #606060;
+  margin: 10px 0;
+}
+
+.finix-text ul{
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.finix-text ul li{
+  font-size: 20px;
+  font-weight: 400;
+  color: #606060;
+  margin: 10px 0;
+}
+
+.finix-text ul li::before{
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: #e73c3e;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+

@@ -26,6 +26,10 @@ img{
   max-width: 100%;
 }
 
+.grybg{
+  background: #F9FAFB;
+}
+
 body .btn-primary{
   background: #E83B3E !important;
   border-color: #E83B3E;
@@ -242,22 +246,12 @@ ul.our-primary-menu li ul li a:hover{
 }
 /* 
 =========================================
-      2.2 slide-logo section css
-=========================================
-*/
-#slide-logo{
-  background: #fff;
-  padding: 50px 0;
-}
-
-/* 
-=========================================
       2.3 about section css
 =========================================
 */
 #about{
   background: #fff;
-  padding: 50px 0;
+  padding: 80px 0;
 }
 
 .about-image{
@@ -300,7 +294,7 @@ ul.our-primary-menu li ul li a:hover{
 
 .finix-text h2{
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color: #111;
   margin: 20px 0;
   line-height: 1.2;
@@ -341,6 +335,110 @@ ul.our-primary-menu li ul li a:hover{
   display: inline-block;
   margin-right: 10px;
 }
+/* 
+=========================================
+  2.4 Transparent process section css
+=========================================
+*/
+.finix-text{
+  position: relative;
+}
+
+.finix-text .play-btn{
+  font-size: 40px;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  display: inline-block;
+  color: #E83B3E;
+  background: #fff;
+  border-radius: 50%;
+  line-height: 2;
+
+  position: absolute;
+  right: 45%;
+  bottom: 50px;
+
+}
+
+.finix-text .play-btn::before{
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #E83B3E;
+  border-radius: 50%;
+  animation: playbtn 1.6s ease-out infinite;
+}
+
+@keyframes playbtn{
+  0%,30%{
+    transform: scale(0);
+    opacity: 1;
+  }
+  50%{
+    transform: scale(1.5);
+    opacity: .7;
+  }
+  100%{
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.feature-box{
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+
+  position: relative;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.feature-box::before{
+  content: " ";
+  position: absolute;
+  top: -150px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 95%;
+  height: 70%;
+  border-radius: 50%;
+  background: #FDEBEB;
+}
+
+.feature-box .feature-icon i{
+  color: #E83B3E;
+  font-size: 30px;
+  background: #fff;
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  line-height: 1.5;
+  position: relative;
+  transition: .5s;
+}
+
+.mrtop{
+  margin-top: -30px;
+}
+
+.feature-box:hover{
+  transform: translateY(-15px);
+}
+
+.feature-box:hover .feature-icon i {
+  color: #fff;
+  background: #E83B3E;
+}
+
+
+
 
 
 

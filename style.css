@@ -564,6 +564,24 @@ ul.our-primary-menu li ul li a:hover{
 .icons-number a{
   color: #fff;
 }
+/* 
+=========================================
+    2.7 company values section css
+=========================================
+*/
+.all-values .values-icons i{
+  color: #e73c3e;
+  font-size: 35px;
+}
+
+.all-values .values{
+  padding-left: 25px;
+}
+
+.all-values .values p{
+  color: #606060;
+  line-height: 1.5;
+}
 
 
 

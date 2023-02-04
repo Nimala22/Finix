@@ -437,6 +437,102 @@ ul.our-primary-menu li ul li a:hover{
   background: #E83B3E;
 }
 
+/* 
+=========================================
+      2.5 Apply section css
+=========================================
+*/
+.step-timeline ul li strong{
+  font-size: 25px;
+  font-weight: 500; 
+  display: block;
+  margin-bottom: 10px;
+}
+
+.step-timeline ul li p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #606060;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.step-timeline ul{
+  position: relative;
+}
+
+.step-timeline ul::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.5px;
+  background: #E83B3E;
+  height: calc(100% - 100px);
+}
+
+.step-timeline ul li{
+  margin-left: 20px;
+  position: relative;
+}
+
+.step-timeline ul li::before{
+  content: attr(data-counter);
+  position: absolute;
+  top: 0;
+  left: -77px;
+  font-size: 30px;
+  color: red;
+  background: #F9FAFB;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.apply-rules{
+  margin-top: 70px;
+}
+
+.calculation-form-section{
+  background: #FDEBEB;
+  padding: 50px 10px;
+}
+
+.calculation-form-section .finix-text h6{
+  color: #606060;
+}
+
+.calculate-form .form-group label{
+  font-size: 18px;
+  color: #606060;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.calculate-form .form-group select,
+.calculate-form .form-group input{
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.calculate-form .form-group select option{
+  border: none;
+  border-radius: 0;
+  padding: 10px;  
+  color: #606060;
+  background: #fff;
+  border: 1px solid #111;
+}
+
+.form-group select:hover option{
+  color: #fff;
+  background: #E83B3E;
+}
 
 
 

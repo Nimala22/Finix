@@ -619,6 +619,25 @@ ul.our-primary-menu li ul li a:hover{
   color: #e73c3e;
 }
 
+/* 
+=========================================
+    2.9 client section css
+=========================================
+*/
+#client .client-section-text p{
+  font-size: 25px;
+  font-weight: 500;
+  color: #111;
+  line-height: 1.5;
+}
+
+#client .client-section-text h3{
+  font-size: 16px;
+  color: #e73c3e;
+  font-family: 'Rubik', sans-serif; 
+}
+
+
 
 
 

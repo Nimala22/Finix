@@ -582,6 +582,42 @@ ul.our-primary-menu li ul li a:hover{
   color: #606060;
   line-height: 1.5;
 }
+/* 
+=========================================
+    2.8 services section css
+=========================================
+*/
+
+.services-tabs button{
+  border: none;
+  background: none;
+  margin: 0 10px;
+}
+
+.services-tabs button span i{
+  color: #606060;
+  background: #fff;
+  font-size: 30px;
+  padding: 1rem;
+  text-align: center;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 1.5;
+  box-shadow: 1px 3px 4px #555;
+  transition: .5s;
+}
+
+.services-tabs button strong{
+  font-size: 25px;
+  font-weight: 600;
+  color: #111;
+  padding: 5px 0;
+}
+
+.services-tabs button:hover span i{
+  color: #e73c3e;
+}
 
 
 

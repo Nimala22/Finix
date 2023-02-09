@@ -636,6 +636,83 @@ ul.our-primary-menu li ul li a:hover{
   color: #e73c3e;
   font-family: 'Rubik', sans-serif; 
 }
+/* 
+=========================================
+    2.10 expert-people section css
+=========================================
+*/
+.member-image{
+  position: relative;
+}
+
+.member-image img{
+  width: 100%;
+  height: auto;
+}
+
+.member-icons{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.member-icons ul{
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+
+.member-icons ul li{
+  display: inline-block;
+
+  transition: .5s ease-in-out;
+  transform: translateY(45px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.member-image:hover .member-icons ul li{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.member-image .member-icons ul li:nth-child(1){
+  transition-delay: .2s;
+}
+.member-image .member-icons ul li:nth-child(2){
+  transition-delay: .3s;
+}
+.member-image .member-icons ul li:nth-child(3){
+  transition-delay: .4s;
+}
+.member-image .member-icons ul li:nth-child(4){
+  transition-delay: .5s;
+}
+
+.member-icons ul li a{
+  display: block;
+  font-size: 20px;
+  height: 2rem;
+  width: 2rem;
+  line-height: 1.8;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  color: #111;
+  transition: .5s;
+}
+
+.member-icons ul li a:hover{
+  color: #fff;
+  background: #e73c3e;
+}
+
+.member-content h4{
+  color: #E83B3E;
+}
 
 
 

@@ -713,6 +713,26 @@ ul.our-primary-menu li ul li a:hover{
 .member-content h4{
   color: #E83B3E;
 }
+/* 
+=========================================
+    2.11 news section css
+=========================================
+*/
+.news .second-row .finix-text h2{
+  transition: .5s;
+}
+
+.news .second-row .finix-text h2:hover{
+  color: #e73c3e;
+}
+
+.news .second-row .finix-text a > h6{
+  transition: .5s;
+}
+
+.news .second-row .news-content:hover .finix-text a > h6 {
+  letter-spacing: 3px;
+}
 
 
 
